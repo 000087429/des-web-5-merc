@@ -1,0 +1,21 @@
+p{
+    color: blue;
+    font-size: 25px;
+    background-color: red;
+}
+
+.clase-gael{
+    background-color: white;
+    color: yellow;
+}
+
+/* Estilo para aparentar un boton de la clase boton-personalizado */
+
+.boton-personalizado{
+    background: #3b42f6;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
