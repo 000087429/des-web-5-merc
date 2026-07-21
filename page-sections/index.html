@@ -1,59 +1,126 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>Pizzeria Trejo</title>
-<link rel="stylesheet" href="css/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Pizzeria Trejo | Pizza artesanal para jóvenes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="#">Pizzeria Trejo</a>
+      <a class="nav-link" href="#menu">Menú</a>
+    </nav>
 
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Pizza artesanal • entrega rápida</p>
+        <h1>La pizza que te hace salir del sofá.</h1>
+        <p>Ingredientes frescos, masa dorada y una vibra urbana perfecta para compartir con amigos.</p>
 
-<header> 
-<h1>Pizzeria Trejo</h1>
-<p>Pizzas artesanales hechas con ingredientes frescos.</p>
-</header>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://wa.me/5549523978" target="_blank" rel="noopener">Pide ahora</a>
+          <a class="btn btn-secondary" href="#menu">Ver menú</a>
+        </div>
 
+        <ul class="hero-highlights">
+          <li>🔥 Masa artesanal</li>
+          <li>🍕 3 opciones top</li>
+          <li>⚡ Entrega en 30 min</li>
+        </ul>
+      </div>
 
-<main> 
-    <section class="presentacion">
- <p>Nuestras Pizzas</p>
- <img src="img/pizzas.jpg">
- <p>Ingredientes frescos en cada pizza.</p>
+      <div class="hero-media">
+        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80" alt="Pizza artesanal recién horneada">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow">Destacadas</p>
+        <h2>Menú pensado para el momento perfecto</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?auto=format&fit=crop&w=800&q=80" alt="Pizza Margherita">
+          <h3>Margherita</h3>
+          <p>Tomate, mozzarella y albahaca fresca.</p>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" alt="Pizza Pepperoni">
+          <h3>Pepperoni</h3>
+          <p>Queso derretido y pepperoni crujiente.</p>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?auto=format&fit=crop&w=800&q=80" alt="Pizza hawaiana">
+          <h3>Hawaiana</h3>
+          <p>Jamón, piña y un toque dulce muy loco.</p>
+        </article>
+      </div>
     </section>
 
+    <section class="section values-section">
+      <div class="section-heading">
+        <p class="eyebrow">Nuestra propuesta</p>
+        <h2>Simple, buena y hecha con estilo</h2>
+      </div>
 
-    <section class="tipos-pizzas">
-<h2>Tipos de Pizzas</h2>
-<ul>
-  <li>Pizza Margherita. tomate, mozzarella y albahaca.</li>
-  <li>Pizza Pepperoni. mozzarella y rodajas de pepperoni.</li>
-  <li>Pizza Hawaiana. jamón, piña y mozzarella.</li>
-</ul>
-</section>
+      <div class="values-grid">
+        <article class="value-card">
+          <h3>Ingredientes reales</h3>
+          <p>Usamos productos frescos para una pizza con sabor auténtico.</p>
+        </article>
+        <article class="value-card">
+          <h3>Vibra urbana</h3>
+          <p>Diseño moderno y cercano para quienes buscan algo más que una pizza.</p>
+        </article>
+        <article class="value-card">
+          <h3>Pedido sin complicaciones</h3>
+          <p>Reserva, pide o comparte en segundos desde tu celular.</p>
+        </article>
+      </div>
+    </section>
 
-<section class="cta">
- <p>Haz tu pedido ahora mismo: </p>  
- <a href="https://wa.me/5549523978" target="_blank">Contactanos por WhatsApp</a>
-</section>
-</main>
-<footer>
-<p>
+    <section class="section testimonials-section">
+      <div class="section-heading">
+        <p class="eyebrow">Opiniones</p>
+        <h2>Lo que dicen nuestros clientes</h2>
+      </div>
 
-</p>Instagram:Pizzeria_Trejo</p>
-<p>Facebook:Pizzeria_Trejo</p>
-</footer>
+      <div class="testimonials-grid">
+        <article class="testimonial">
+          <p>“La mejor pizza que he probado en mucho tiempo. ¡Se siente premium y muy bien hecha!”</p>
+          <strong>— Ana, 23 años</strong>
+        </article>
+        <article class="testimonial">
+          <p>“Muy buena estética, súper rápido y el sabor es increíble. Me enamoré de la Margherita.”</p>
+          <strong>— Luis, 21 años</strong>
+        </article>
+        <article class="testimonial">
+          <p>“Perfecta para salir con amigos. Se nota el cuidado en cada detalle.”</p>
+          <strong>— Camila, 25 años</strong>
+        </article>
+      </div>
+    </section>
 
+    <section class="cta-section">
+      <h2>¿Listo para pedir tu favorita?</h2>
+      <p>Haz tu pedido ahora y disfruta una pizza recién hecha en minutos.</p>
+      <a class="btn btn-primary" href="https://wa.me/5549523978" target="_blank" rel="noopener">Reserva o pide ya</a>
+    </section>
+  </main>
 
+  <footer class="footer">
+    <p>Instagram: @PizzeriaTrejo</p>
+    <p>Facebook: Pizzeria Trejo</p>
+  </footer>
 </body>
-
-    
-
-
-
-
-
-
 </html>

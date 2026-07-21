@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.hero {
+  background: #f4e3d1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.boton,
+button {
+  background: #d9b08c;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.seccion {
+  padding: 32px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+}
+
+input,
+textarea {
+  padding: 10px;
+}
